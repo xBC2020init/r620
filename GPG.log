@@ -1,0 +1,33 @@
+ubuntu@ubuntu:/media/ubuntu/c903b95b-b30e-4b5a-be2b-7a95bd387b51/r620$ gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys 756BA70B1019CED6
+gpg: key 756BA70B1019CED6: public key "Dell Inc., PGRE 2011 (PG Release Engineering Build Group 2011) <PG_Release_Engineering@Dell.com>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+ubuntu@ubuntu:/media/ubuntu/c903b95b-b30e-4b5a-be2b-7a95bd387b51/r620$ gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys CA77951D23B66A9D
+gpg: key CA77951D23B66A9D: public key "Dell, Inc. (Product Group) <linux-security@dell.com>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+ubuntu@ubuntu:/media/ubuntu/c903b95b-b30e-4b5a-be2b-7a95bd387b51/r620$ gpg --verify BIOS_W1WJW_LN_2.9.0.BIN.sign 
+gpg: assuming signed data in 'BIOS_W1WJW_LN_2.9.0.BIN'
+gpg: Signature made Wed 11 Dec 2019 02:43:26 AM UTC
+gpg:                using DSA key 756BA70B1019CED6
+gpg: Good signature from "Dell Inc., PGRE 2011 (PG Release Engineering Build Group 2011) <PG_Release_Engineering@Dell.com>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 79A1 61F5 A83F 992C CB10  A544 756B A70B 1019 CED6
+ubuntu@ubuntu:/media/ubuntu/c903b95b-b30e-4b5a-be2b-7a95bd387b51/r620$ gpg --verify ESM_Firmware_3F4WV_LN_1.66.65_A00.BIN.sign 
+gpg: assuming signed data in 'ESM_Firmware_3F4WV_LN_1.66.65_A00.BIN'
+gpg: Signature made Wed 26 Nov 2014 07:09:33 AM UTC
+gpg:                using DSA key CA77951D23B66A9D
+gpg: Good signature from "Dell, Inc. (Product Group) <linux-security@dell.com>" [unknown]
+gpg:                 aka "Dell Computer Corporation (Linux Systems Group) <linux-security@dell.com>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 4172 E2CE 955A 1776 A5E6  1BB7 CA77 951D 23B6 6A9D
+ubuntu@ubuntu:/media/ubuntu/c903b95b-b30e-4b5a-be2b-7a95bd387b51/r620$ gpg --verify Diagnostics_Application_JCJR3_LN64_5.0_A00_02.BIN.sign 
+gpg: assuming signed data in 'Diagnostics_Application_JCJR3_LN64_5.0_A00_02.BIN'
+gpg: Signature made Tue 28 Apr 2020 06:14:52 AM UTC
+gpg:                using DSA key 756BA70B1019CED6
+gpg: Good signature from "Dell Inc., PGRE 2011 (PG Release Engineering Build Group 2011) <PG_Release_Engineering@Dell.com>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 79A1 61F5 A83F 992C CB10  A544 756B A70B 1019 CED6
